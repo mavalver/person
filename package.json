@@ -1,0 +1,28 @@
+{
+  "name": "person3",
+  "version": "1.0.0",
+  "description": "Learn sequelize and sqlite3.",
+  "main": "0_init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavalver/person.git"
+  },
+  "keywords": [
+    "DB",
+    "sqlite3",
+    "sequelize"
+  ],
+  "author": "MAGV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavalver/person/issues"
+  },
+  "homepage": "https://github.com/mavalver/person#readme",
+  "dependencies": {
+    "sequelize": "^5.8.7",
+    "sqlite3": "^4.0.8"
+  }
+}
