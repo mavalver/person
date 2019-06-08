@@ -14,5 +14,5 @@ validarArgumentos(2, "    syntax: node 2_create.js <name> <age>");
 const name = process.argv[2], age = process.argv[3];
 
 person.create({name, age})
-.then( () => console.log(`    ${name} created with ${age} years`) )
+.then( () => console.log(`    ${name} created with ${age} years old`) )
 .catch( err => console.log(`   ${err}`));
